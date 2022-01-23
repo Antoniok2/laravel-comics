@@ -1,0 +1,28 @@
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+
+        img {
+            height: 50px;
+            margin: 0 80px;
+        }
+
+        li {
+        display: inline-block;
+        margin: 0 15px;
+        
+        &.active a {
+            border-bottom: 5px solid #0282f9;
+            color: #0282f9
+        }
+
+        a {
+            text-decoration: none;
+            padding-bottom: 30px;
+            color: black;
+        }
+        }
+  }
