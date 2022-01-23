@@ -4,12 +4,16 @@
   box-sizing: border-box;
 }
 
-header {
+h1 {
   background-color: yellow;
+}
+
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px 0;
+  background-color: white;
 }
 
 header img {
@@ -40,7 +44,7 @@ header li a {
   display: flex;
   justify-content: space-around;
   height: 400px;
-  background-color: red;
+  background-color: #1c1c1c;
 }
 
 #footer-menu nav {

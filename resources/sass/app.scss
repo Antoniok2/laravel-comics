@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+h1 {
+    background-color: yellow;
+}
+
 
 header {
-    background-color: yellow;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
+    background-color: white;
 
         img {
             height: 50px;
@@ -41,7 +45,7 @@ header {
     display: flex;
     justify-content: space-around;
     height: 400px;
-    background-color: red;
+    background-color: #1c1c1c;
   
       nav {
         padding: 45px 0;
