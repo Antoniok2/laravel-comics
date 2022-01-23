@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 header {
   background-color: yellow;
   display: flex;
@@ -25,5 +31,76 @@ header li a {
   text-decoration: none;
   padding-bottom: 30px;
   color: black;
+}
+
+#footer-menu {
+  background-image: url("https://www.wallpapertip.com/wmimgs/4-45265_dc-wallpaper-hd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  background-color: red;
+}
+
+#footer-menu nav {
+  padding: 45px 0;
+  display: flex;
+}
+
+#footer-menu nav div {
+  margin: 0 10px;
+}
+
+#footer-menu h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+#footer-menu ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+#footer-menu li {
+  color: #5b6f7b;
+  margin: 2px 0;
+}
+
+#logo-footer img {
+  width: 600px;
+  height: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+#footer-contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #303030;
+  padding: 30px 0;
+}
+
+#footer-contacts .sign-up {
+  padding: 10px 20px;
+  color: #fff;
+  border: 2px solid #0282f9;
+}
+
+#footer-contacts .socials {
+  color: #0282f9;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#footer-contacts .socials span {
+  margin-right: 20px;
+}
+
+#footer-contacts .socials img {
+  margin: 0 10px;
+  width: 50px;
 }
 
