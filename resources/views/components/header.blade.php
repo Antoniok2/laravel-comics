@@ -1,6 +1,6 @@
 <header>
     <header>
-        <img src="{{ asset('storage/assets/DC_Comics_logo.svg.png') }}">
+        <img src="{{ asset('/storage/assets/img/DC_Comics_logo.svg.png') }}">
           <nav>
             <ul>
               <li><a href="#">CHARACTERS</a></li>
