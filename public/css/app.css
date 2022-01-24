@@ -5,11 +5,131 @@
 }
 
 .jumbotron {
+  position: relative;
   width: 100%;
   height: 400px;
   background-image: url("/storage/assets/img/jumbotron.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.details_action_comics {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 200px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.details_action_comics img {
+  width: 100%;
+  height: 100%;
+}
+
+.container_detail {
+  width: 100%;
+  height: 500px;
+  background-color: yellow;
+}
+
+.container_detail .info_action_comics {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.container_detail .info_action_comics .info {
+  width: 70%;
+  height: 250px;
+  background-color: green;
+}
+
+.container_detail .info_action_comics .info p {
+  padding: 10px;
+}
+
+.container_detail .info_action_comics .info h2 {
+  padding: 10px 20px;
+}
+
+.container_detail .info_action_comics .info .availability {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #16bb00;
+  color: white;
+}
+
+.container_detail .info_action_comics .info .availability .price {
+  width: 80%;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.container_detail .info_action_comics .info .availability .check_availability {
+  width: 30%;
+  padding: 10px 10px;
+  border: 1px solid black;
+}
+
+.container_detail .info_action_comics .advertisement {
+  position: relative;
+  width: 30%;
+  height: 250px;
+  background-color: blue;
+}
+
+.container_detail .info_action_comics .advertisement button {
+  background-color: yellow;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.096);
+  cursor: pointer;
+}
+
+.container_detail .info_action_comics .advertisement span {
+  text-align: right;
+}
+
+.container_detail .info_action_comics .advertisement img {
+  width: 100%;
+  height: 90%;
+}
+
+.container_detail .talent_specs {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  height: 250px;
+  background-color: yellowgreen;
+  margin: 0 auto;
+}
+
+.container_detail .talent_specs .talent {
+  width: 50%;
+  height: 250px;
+  background-color: azure;
+}
+
+.container_detail .talent_specs .talent h3 {
+  padding: 10px 5px;
+  border-bottom: 1px solid gray;
+}
+
+.container_detail .talent_specs .specs {
+  width: 50%;
+  height: 250px;
+  background-color: aqua;
+}
+
+.container_detail .talent_specs .specs h3 {
+  padding: 10px 5px;
+  border-bottom: 1px solid gray;
 }
 
 .container {

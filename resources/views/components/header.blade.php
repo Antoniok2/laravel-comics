@@ -15,6 +15,5 @@
               <li><a href="#">SHOP</a></li>
             </ul>
           </nav>
-    
     </header>
 </header>
