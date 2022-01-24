@@ -4,8 +4,58 @@
   box-sizing: border-box;
 }
 
-h1 {
-  background-color: yellow;
+.jumbotron {
+  width: 100%;
+  height: 400px;
+  background-image: url("/storage/assets/img/jumbotron.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: black;
+}
+
+.container .schede {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .schede button {
+  padding: 10px 35px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #0282f9;
+  cursor: pointer;
+}
+
+.container .schede button:hover {
+  background-color: #236fb6;
+}
+
+.scheda {
+  width: calc(16.6666666667% - 56px);
+  height: 40%;
+  margin: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scheda img {
+  width: 80%;
+  height: 80%;
+  margin: 15px;
+}
+
+.scheda span {
+  color: white;
+}
+
+.scheda:hover {
+  transform: scale(1.1);
 }
 
 header {
