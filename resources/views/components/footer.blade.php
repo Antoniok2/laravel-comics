@@ -62,11 +62,11 @@
             <div class="sign-up">SIGN-UP NOW!</div>
             <div class="socials">
               <span>FOLLOW US</span>
-              <img src="https://d6scj24zvfbbo.cloudfront.net/473c276d389a4edcd3782a7a0519f141/200000509-b79abb79b0/facebook--600.png?ph=16a65369a7">
-              <img src="https://d6scj24zvfbbo.cloudfront.net/473c276d389a4edcd3782a7a0519f141/200000509-b79abb79b0/facebook--600.png?ph=16a65369a7">
-              <img src="https://d6scj24zvfbbo.cloudfront.net/473c276d389a4edcd3782a7a0519f141/200000509-b79abb79b0/facebook--600.png?ph=16a65369a7">
-              <img src="https://d6scj24zvfbbo.cloudfront.net/473c276d389a4edcd3782a7a0519f141/200000509-b79abb79b0/facebook--600.png?ph=16a65369a7">
-              <img src="https://d6scj24zvfbbo.cloudfront.net/473c276d389a4edcd3782a7a0519f141/200000509-b79abb79b0/facebook--600.png?ph=16a65369a7">
+              <img src="{{ asset('/storage/assets/img/footer-facebook.png') }}">
+              <img src="{{ asset('/storage/assets/img/footer-periscope.png') }}">
+              <img src="{{ asset('/storage/assets/img/footer-pinterest.png') }}">
+              <img src="{{ asset('/storage/assets/img/footer-twitter.png') }}">
+              <img src="{{ asset('/storage/assets/img/footer-youtube.png') }}">
             </div>
           </section>
     
