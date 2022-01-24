@@ -58,6 +58,44 @@
   transform: scale(1.1);
 }
 
+.extra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0282f9;
+  height: 120px;
+  width: 100%;
+}
+
+.extra .icons {
+  display: flex;
+  justify-content: center;
+}
+
+.extra .icons section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.extra .icons section span {
+  padding-left: 10px;
+}
+
+.extra .icons section img {
+  width: 20%;
+}
+
+.extra .icons section img.prop {
+  width: 80px;
+  margin-left: 10px;
+}
+
+.extra .icons section:hover {
+  transform: scale(1.1);
+}
+
 header {
   display: flex;
   justify-content: space-around;

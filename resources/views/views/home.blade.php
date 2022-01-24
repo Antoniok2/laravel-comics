@@ -56,6 +56,31 @@
             </div>
             <button>LOAD MORE</button>
         </div>
-      </div>
+    </div>
+
+    <div class="extra">
+        <div class="icons">
+            <section>
+              <img src="{{ asset('/storage/assets/img/buy-comics-digital-comics.png') }}" alt="extra_icon" />
+              <span>DIGITAL COMICS</span>
+            </section>
+            <section>
+              <img src="{{ asset('/storage/assets/img/buy-comics-merchandise.png') }}" alt="extra_icon" />
+              <span>DC MERCHANDISE</span>
+            </section>
+            <section>
+              <img src="{{ asset('/storage/assets/img/buy-comics-subscriptions.png') }}" alt="extra_icon" />
+              <span>SUBSCRIPTION</span>
+            </section>
+            <section>
+              <img src="{{ asset('/storage/assets/img/buy-comics-shop-locator.png') }}" alt="extra_icon" />
+              <span>COMIC SHOP LOCATOR</span>
+            </section>
+            <section>
+              <img class="prop" src="{{ asset('/storage/assets/img/buy-dc-power-visa.svg') }}" alt="extra_icon" />
+              <span>DC POWER VISA</span>
+            </section>
+        </div>
+    </div>
     
 @endsection 

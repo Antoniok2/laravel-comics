@@ -58,6 +58,44 @@
   }
 }
 
+.extra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0282f9;
+  height: 120px;
+  width: 100%;
+
+  .icons {
+      display: flex;
+      justify-content: center;
+
+      section {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+
+          span {
+              padding-left: 10px;
+          }
+
+          img {
+              width: 20%;
+
+              &.prop {
+                width: 80px;
+                margin-left: 10px ;
+              }
+          }
+
+          &:hover {
+            transform: scale(1.1);
+          }
+      }
+  }
+}
+
 
 header {
     display: flex;
