@@ -23,11 +23,27 @@
             </div>
         </div>
         <div class="talent_specs">
-            <div class="talent">
+            <div class="talent_and_spec">
                 <h3>Talent</h3>
+                <div class="art_and_written_by">
+                    <span class="title_span">Art by:</span>
+                    <p class="text_span">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cupiditate repellendus vero harum ea, unde tempora vel labore perferendis, incidunt reiciendis! Optio totam deleniti nesciunt delectus ipsa. Aliquam, impedit totam.</p>
+                </div>
+                <div class="art_and_written_by">
+                    <span class="title_span">Written by:</span>
+                    <p class="text_span">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cupiditate repellendus vero harum ea, unde tempora vel labore perferendis, incidunt reiciendis! Optio totam deleniti nesciunt delectus ipsa. Aliquam, impedit totam.</p>
+                </div>
             </div>
-            <div class="specs">
+            <div class="talent_and_spec">
                 <h3>Specs</h3>
+                <div class="art_and_written_by">
+                    <span class="title_span">Series:</span>
+                    <p class="text_span">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cupiditate repellendus vero harum ea, unde tempora vel labore perferendis, incidunt reiciendis! Optio totam deleniti nesciunt delectus ipsa. Aliquam, impedit totam.</p>
+                </div>
+                <div class="art_and_written_by">
+                    <span class="title_span">U.S. Price:</span>
+                    <p class="text_span">$19.99</p>
+                </div>
             </div>
         </div>
     </div>

@@ -30,7 +30,6 @@
 .container_detail {
   width: 100%;
   height: 500px;
-  background-color: yellow;
 }
 
 .container_detail .info_action_comics {
@@ -44,7 +43,6 @@
 .container_detail .info_action_comics .info {
   width: 70%;
   height: 250px;
-  background-color: green;
 }
 
 .container_detail .info_action_comics .info p {
@@ -79,7 +77,6 @@
   position: relative;
   width: 30%;
   height: 250px;
-  background-color: blue;
 }
 
 .container_detail .info_action_comics .advertisement button {
@@ -97,7 +94,7 @@
 }
 
 .container_detail .info_action_comics .advertisement img {
-  width: 100%;
+  width: 80%;
   height: 90%;
 }
 
@@ -106,19 +103,31 @@
   justify-content: flex-start;
   width: 80%;
   height: 250px;
-  background-color: yellowgreen;
   margin: 0 auto;
 }
 
-.container_detail .talent_specs .talent {
+.container_detail .talent_specs .talent_and_spec {
   width: 50%;
   height: 250px;
   background-color: azure;
 }
 
-.container_detail .talent_specs .talent h3 {
+.container_detail .talent_specs .talent_and_spec h3 {
   padding: 10px 5px;
   border-bottom: 1px solid gray;
+}
+
+.container_detail .talent_specs .talent_and_spec .art_and_written_by {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 80px;
+  padding: 10px 5px;
+  border-bottom: 1px solid grey;
+}
+
+.container_detail .talent_specs .talent_and_spec .art_and_written_by .title_span {
+  width: 50%;
 }
 
 .container_detail .talent_specs .specs {
