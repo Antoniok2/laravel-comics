@@ -38,7 +38,7 @@ header li a {
 }
 
 #footer-menu {
-  background-image: url("https://www.wallpapertip.com/wmimgs/4-45265_dc-wallpaper-hd.jpg");
+  background-image: url("/storage/assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

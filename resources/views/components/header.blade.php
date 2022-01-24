@@ -1,6 +1,6 @@
 <header>
     <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/1200px-DC_Comics_logo.svg.png">
+        <img src="{{ asset('storage/assets/DC_Comics_logo.svg.png') }}">
           <nav>
             <ul>
               <li><a href="#">CHARACTERS</a></li>
