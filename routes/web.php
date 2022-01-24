@@ -7,6 +7,6 @@ Route::get('/', function () {
     return view('views.home');
 });
 
-Route::get('/detail', function() {
+Route::get('detail', function() {
     return view('views.detail');
 });
